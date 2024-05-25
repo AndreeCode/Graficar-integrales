@@ -45,7 +45,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 			edt_a=CreateWindowEx(0,"EDIT","-1.0",WS_VISIBLE|WS_CHILD|WS_BORDER,300,230,80,25,hwnd,0,0,0);
 			edt_b=CreateWindowEx(0,"EDIT","1.0",WS_VISIBLE|WS_CHILD|WS_BORDER,300,260,80,25,hwnd,0,0,0);
 			btn_camb=CreateWindowEx(0,"BUTTON","camb",WS_VISIBLE|WS_CHILD,300,100,80,25,hwnd,(HMENU)ID_EDT_CAMB,0,0);
-			edt_camb=CreateWindowEx(0,"EDIT","5",WS_VISIBLE|WS_CHILD|WS_BORDER,300,130,80,25,hwnd,0,0,0);
+			edt_camb=CreateWindowEx(0,"EDIT","0",WS_VISIBLE|WS_CHILD|WS_BORDER,300,130,80,25,hwnd,0,0,0);
 			
 			Graficar_Funciones=CreateWindowEx(0,"GDI_CONTROL",0,WS_VISIBLE|WS_CHILD|WS_BORDER,50,80,200,200,hwnd,0,0,0);
 			

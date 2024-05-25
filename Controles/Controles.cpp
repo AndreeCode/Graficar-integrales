@@ -11,7 +11,7 @@ double Final_Integral=1;
 
 
 int tiempo=0;
-int opcion =5;
+int opcion =0;
 
 void Pocicion_Recta(double x,double y);
 void Escala_Recta(double x,double y);
@@ -38,6 +38,8 @@ double funcion(double x){
 	    } else {
 	        return static_cast<int>(x-1);
 	    }
+	}else if(opcion==5){
+		return sin(x);
 	}else{
 		return 1/(pow(x,2)-1);
 	}
