@@ -40,6 +40,10 @@ double funcion(double x){
 	    }
 	}else if(opcion==5){
 		return sin(x);
+	}else if(opcion==6){
+		return pow(M_E,-fabs(x-1));
+	}else if(opcion==7){
+		return 64/(pow(x,2)+16);
 	}else{
 		return 1/(pow(x,2)-1);
 	}
